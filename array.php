@@ -142,9 +142,12 @@ $val2 = ["name"=>"aung aung",
 
         foreach($val3 as $j){
             // var_dump($j);
-            foreach($j as $key=>$k){
-                echo "key is ${key} value is ${k}". "<br/>";
-            }
+
+            echo "name is = ". $j["name"] . "age is = ". $j["age"]. "<br/>";
+
+            // foreach($j as $key=>$k){
+            //     echo "key is ${key} value is ${k}". "<br/>";
+            // }
 
         }
 
